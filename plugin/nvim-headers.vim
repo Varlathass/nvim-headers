@@ -2,6 +2,6 @@
 " two different approaches but it is not required you use VimL. Feel free to
 " delete this code and proceed without it.
 
-function DoItVimL()
+function! DoItVimL()
     echo "hello from DoItVimL"
 endfunction
