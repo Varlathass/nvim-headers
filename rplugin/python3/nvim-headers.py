@@ -2,9 +2,9 @@ import neovim
 
 @neovim.plugin
 class Main(object):
-    def __init__(self, vim):
-        self.vim = vim
+    def __init__(self, nvim):
+        self.nvim = nvim
 
     @neovim.function('DoItPython')
     def doItPython(self, args):
-        self.vim.command('echo "Hello from doitpython"')
+        self.nvim.command('echo "Hello from doitpython"')
